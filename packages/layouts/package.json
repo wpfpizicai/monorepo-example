@@ -1,0 +1,21 @@
+{
+  "name": "layouts",
+  "version": "1.0.0",
+  "description": "graph layouts",
+  "license": "MIT",
+  "devDependencies": {
+    "babel-loader": "~8.0.0",
+    "@babel/core": "~7.4.3",
+    "webpack": "~4.29.6",
+    "webpack-cli": "^3.2.3"
+  },
+  "scripts": {
+    "build": "webpack",
+    "start": "npm run dev",
+    "dev": "npm run watch",
+    "watch": "webpack"
+  },
+  "dependencies": {
+    "simplesvg": "^0.1.1"
+  }
+}
