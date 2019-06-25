@@ -81,7 +81,7 @@
 /******/
 /******/
 /******/ 	// Load entry module and return exports
-/******/ 	return __webpack_require__(__webpack_require__.s = "./src/render/index.js");
+/******/ 	return __webpack_require__(__webpack_require__.s = "./src/render/svg/index.js");
 /******/ })
 /************************************************************************/
 /******/ ({
@@ -436,7 +436,7 @@ function fail() {
 
 /***/ }),
 
-/***/ "./node_modules/webpack/buildin/global.js":
+/***/ "./node_modules/_webpack@4.29.6@webpack/buildin/global.js":
 /*!***********************************!*\
   !*** (webpack)/buildin/global.js ***!
   \***********************************/
@@ -1318,17 +1318,17 @@ function Node() {
 
 /***/ }),
 
-/***/ "./src/render/domInputManager.js":
-/*!***************************************!*\
-  !*** ./src/render/domInputManager.js ***!
-  \***************************************/
+/***/ "./src/render/svg/domInputManager.js":
+/*!*******************************************!*\
+  !*** ./src/render/svg/domInputManager.js ***!
+  \*******************************************/
 /*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "default", function() { return domInputManager; });
-/* harmony import */ var _dragndrop__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./dragndrop */ "./src/render/dragndrop.js");
+/* harmony import */ var _dragndrop__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./dragndrop */ "./src/render/svg/dragndrop.js");
 /**
  * @author Andrei Kashcha (aka anvaka) / https://github.com/anvaka
  */
@@ -1379,17 +1379,17 @@ function domInputManager(graph, graphics) {
 
 /***/ }),
 
-/***/ "./src/render/dragndrop.js":
-/*!*********************************!*\
-  !*** ./src/render/dragndrop.js ***!
-  \*********************************/
+/***/ "./src/render/svg/dragndrop.js":
+/*!*************************************!*\
+  !*** ./src/render/svg/dragndrop.js ***!
+  \*************************************/
 /*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "default", function() { return dragndrop; });
-/* harmony import */ var _utils_util__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../utils/util */ "./src/utils/util.js");
+/* harmony import */ var _utils_util__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../../utils/util */ "./src/utils/util.js");
 /**
  * @author Andrei Kashcha (aka anvaka) / https://github.com/anvaka
  */
@@ -1657,23 +1657,23 @@ function dragndrop(element) {
 
 /***/ }),
 
-/***/ "./src/render/index.js":
-/*!*****************************!*\
-  !*** ./src/render/index.js ***!
-  \*****************************/
+/***/ "./src/render/svg/index.js":
+/*!*********************************!*\
+  !*** ./src/render/svg/index.js ***!
+  \*********************************/
 /*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "default", function() { return renderer; });
-/* harmony import */ var _utils_eventify__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../utils/eventify */ "./src/utils/eventify.js");
-/* harmony import */ var _forcelayout__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../forcelayout */ "./src/forcelayout/index.js");
-/* harmony import */ var _svg__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./svg */ "./src/render/svg.js");
-/* harmony import */ var _domInputManager__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./domInputManager */ "./src/render/domInputManager.js");
-/* harmony import */ var _utils_timer__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../utils/timer */ "./src/utils/timer.js");
-/* harmony import */ var _dragndrop__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ./dragndrop */ "./src/render/dragndrop.js");
-/* harmony import */ var _utils_util__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ../utils/util */ "./src/utils/util.js");
+/* harmony import */ var _utils_eventify__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../../utils/eventify */ "./src/utils/eventify.js");
+/* harmony import */ var _forcelayout__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../../forcelayout */ "./src/forcelayout/index.js");
+/* harmony import */ var _svg__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./svg */ "./src/render/svg/svg.js");
+/* harmony import */ var _domInputManager__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./domInputManager */ "./src/render/svg/domInputManager.js");
+/* harmony import */ var _utils_timer__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../../utils/timer */ "./src/utils/timer.js");
+/* harmony import */ var _dragndrop__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ./dragndrop */ "./src/render/svg/dragndrop.js");
+/* harmony import */ var _utils_util__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ../../utils/util */ "./src/utils/util.js");
 
 
 
@@ -2134,10 +2134,10 @@ function renderer(graph, settings) {
 
 /***/ }),
 
-/***/ "./src/render/svg.js":
-/*!***************************!*\
-  !*** ./src/render/svg.js ***!
-  \***************************/
+/***/ "./src/render/svg/svg.js":
+/*!*******************************!*\
+  !*** ./src/render/svg/svg.js ***!
+  \*******************************/
 /*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -2146,8 +2146,8 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "default", function() { return svgGraphics; });
 /* harmony import */ var simplesvg__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! simplesvg */ "./node_modules/_simplesvg@0.1.1@simplesvg/index.js");
 /* harmony import */ var simplesvg__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(simplesvg__WEBPACK_IMPORTED_MODULE_0__);
-/* harmony import */ var _utils_eventify__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../utils/eventify */ "./src/utils/eventify.js");
-/* harmony import */ var _domInputManager__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./domInputManager */ "./src/render/domInputManager.js");
+/* harmony import */ var _utils_eventify__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../../utils/eventify */ "./src/utils/eventify.js");
+/* harmony import */ var _domInputManager__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./domInputManager */ "./src/render/svg/domInputManager.js");
 /**
  * @fileOverview Defines a graph renderer that uses SVG based drawings.
  *
@@ -3621,7 +3621,7 @@ function createTimer() {
 function noop() {}
 
 /* harmony default export */ __webpack_exports__["default"] = (alltimer);
-/* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(/*! ./../../node_modules/webpack/buildin/global.js */ "./node_modules/webpack/buildin/global.js")))
+/* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(/*! ./../../node_modules/_webpack@4.29.6@webpack/buildin/global.js */ "./node_modules/_webpack@4.29.6@webpack/buildin/global.js")))
 
 /***/ }),
 

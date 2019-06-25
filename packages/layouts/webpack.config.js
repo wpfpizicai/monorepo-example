@@ -10,7 +10,7 @@ module.exports = {
   devtool: 'cheap-source-map',
   entry: {
     forcelayout: './src/forcelayout/index.js',
-    render: './src/render/index.js',
+    render: './src/render/svg/index.js',
     demo: './demo/index.js'
   },
   output: {
