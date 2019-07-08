@@ -1,6 +1,6 @@
 {
   "name": "@ali/lerna-example-module-a",
-  "version": "0.0.5",
+  "version": "0.0.7",
   "description": "module-a",
   "main": "index.js",
   "scripts": {
