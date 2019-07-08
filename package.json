@@ -1,0 +1,6 @@
+{
+  "name": "lerna-yuheng-example",
+  "devDependencies": {
+    "lerna": "^3.15.0"
+  }
+}
