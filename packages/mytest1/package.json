@@ -1,0 +1,32 @@
+{
+  "name": "@ali/mytest1",
+  "version": "0.0.9",
+  "description": "no",
+  "keywords": [
+    "kk"
+  ],
+  "author": "yuheng.wpf <yuheng.wpf@alibaba-inc.com>",
+  "homepage": "https://github.com/wpfpizicai/monorepo-example#readme",
+  "license": "ISC",
+  "main": "lib/mytest1.js",
+  "directories": {
+    "lib": "lib",
+    "test": "__tests__"
+  },
+  "files": [
+    "lib"
+  ],
+  "publishConfig": {
+    "registry": "https://registry.npm.alibaba-inc.com/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wpfpizicai/monorepo-example.git"
+  },
+  "scripts": {
+    "test": "echo \"Error: run tests from root\" && exit 1"
+  },
+  "bugs": {
+    "url": "https://github.com/wpfpizicai/monorepo-example/issues"
+  }
+}
