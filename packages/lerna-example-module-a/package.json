@@ -1,6 +1,6 @@
 {
   "name": "lerna-example-module-a",
-  "version": "1.0.0",
+  "version": "0.0.2",
   "description": "module-a",
   "main": "index.js",
   "scripts": {
@@ -9,6 +9,6 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "lerna-example-module-core": "^1.0.0"
+    "lerna-example-module-core": "^0.0.2"
   }
 }
