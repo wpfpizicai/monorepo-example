@@ -1,6 +1,6 @@
 {
   "name": "@ali/lerna-example-module-add",
-  "version": "0.0.10",
+  "version": "0.0.11",
   "description": "module-add",
   "main": "index.js",
   "scripts": {
@@ -9,7 +9,7 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "@ali/lerna-example-module-util": "^0.0.10"
+    "@ali/lerna-example-module-util": "^0.0.11"
   },
   "gitHead": "de2871698eafd545a7ff2a848d6d08a39f1aced4"
 }
